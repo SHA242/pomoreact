@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pomoreact]/static/css/main.8e572879.css",
+    "main.js": "/pomoreact]/static/js/main.9c85ee74.js",
+    "index.html": "/pomoreact]/index.html",
+    "main.8e572879.css.map": "/pomoreact]/static/css/main.8e572879.css.map",
+    "main.9c85ee74.js.map": "/pomoreact]/static/js/main.9c85ee74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e572879.css",
+    "static/js/main.9c85ee74.js"
+  ]
+}
