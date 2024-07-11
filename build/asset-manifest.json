@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MovieQuest/static/css/main.dd507588.css",
+    "main.js": "/MovieQuest/static/js/main.05e70736.js",
+    "index.html": "/MovieQuest/index.html",
+    "main.dd507588.css.map": "/MovieQuest/static/css/main.dd507588.css.map",
+    "main.05e70736.js.map": "/MovieQuest/static/js/main.05e70736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd507588.css",
+    "static/js/main.05e70736.js"
+  ]
+}

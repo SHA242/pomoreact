@@ -1,0 +1,205 @@
+*{
+  font-family: 'Roboto Mono' !important;
+  transition: 0.3s;
+}
+body{
+  background-color: var(--soft);
+}
+:hover{
+  transition: 0.3s;
+}
+
+:focus{
+  outline: none;
+}
+
+.column{
+  height: 100vh !important;
+}
+
+:root {
+  --main: #FF5353;
+  --soft: #F5F5F5;
+}
+
+.Tasks-Section{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.Button-Select{
+  transition: 0.3s;
+}
+
+.Button-Select:hover{
+  transition: 0.3s;
+  background-color: var(--soft);
+  color: var(--main);
+  border: none !important;
+}
+
+
+.Tasks-Container{
+  background: var(--main);
+  overflow-y: auto;
+}
+
+.Heading-Container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.Heading-Container div{
+  display: flex;
+}
+
+.Heading-Container div .Button-Select{
+  flex-grow: 1;
+  margin: 5px;
+}
+
+
+.Tasks-Container h1{
+  color: var(--soft);
+  font-weight: bold;
+}
+
+.Taskcard{
+  padding: 20px;
+  border: solid 1px var(--soft);
+  border-radius: 0.7em;
+  color: var(--soft);
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.strikethrough{
+  text-decoration: line-through !important;
+  text-decoration-color: var(--soft) !important;
+  text-decoration-thickness: 2px !important;
+}
+
+.clicked{
+  /* opacity: 0.5; */
+}
+
+.Add-Button {
+  opacity: 0; /* Start with opacity 0 to hide the element */
+  transition: opacity 0.5s; /* Smooth transition for opacity change */
+}
+
+.Taskcard:hover .Add-Button {
+  opacity: 1; /* Show the element on hover by changing opacity to 1 */
+}
+
+.Task-Input{
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.Task-Size-Overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.Task-Content{
+  margin-left: 10px;
+  flex: 6;
+}
+
+.Taskcard button{
+  flex: 1 ;
+  background-color: var(--soft);
+  color: var(--main);
+}
+
+.Task-Size{
+  padding: 0.5rem;
+  background: var(--soft);
+  color: var(--main);
+  border-radius: 0.3rem;  
+  margin-left: -13px;
+  font-weight: bold;
+
+}
+
+
+.Task-Title{
+  display: block;
+  font-weight: bold;
+  margin-top: -5px;
+  line-height:1.3rem;
+}
+
+.Timer.column{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.Timer .container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Timer-Heading{
+  color: var(--main);
+  font-size: 12vw;
+  font-weight: bold;
+}
+
+.Timer-Container p{
+  text-align: center;
+}
+
+.Task-Add{
+  margin-top: 50px;
+  opacity: 0.5;
+}
+
+.Playing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  color: var(--main);
+}
+
+/* .Playing.Break{
+  display: none;
+} */
+
+.Pause-Container{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid var(--main);
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.Pause-Container svg{
+  color: var(--main);
+}
+
+.Playing h3{
+  margin-bottom: -20px;
+}
+
+.Timer p{
+  opacity: 0.5;
+}
